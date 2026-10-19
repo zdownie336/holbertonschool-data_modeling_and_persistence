@@ -1,5 +1,5 @@
 CREATE TABLE books (
-	id INTEGER,
+	id INTEGER UNIQUE,
 	title TEXT,
 	author TEXT,
 	genre TEXT,
